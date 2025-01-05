@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+  <head>
+    <title>Daarul hikma Network</title>
+    <style type="text/css">
+      .main-nav {
+        display: flex;
+        padding: 15px;
+        border-radius: 5px;
+        background: #1c87c9;
+        color: #fff;
+        font-weight: 500;
+      }
+      .main-nav > ul {
+        display: flex;
+        flex: 2;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      .main-nav li {
+        margin-right: 15px;
+      }
+      .main-nav > form {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+      }
+      .main-nav input {
+        flex: 1;
+        padding: 5px;
+      }
+      .main-nav button {
+        padding: 0 20px;
+        margin-left: 10px;
+        border: 0;
+        border-radius: 20px;
+        background: #fff;
+        color: #666;
+      }
+      @media screen and (max-width: 575px) {
+        .main-nav {
+          flex-direction: column;
+        }
+.main-nav ul {
+   margin-bottom: 10px;
+  }
+}
+#feature, .article {
+   height: 10em;
+   margin-bottom: 1em;
+   background-color: #efefef;
+}
+    </style>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="about.htm">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="books.html">books</a></li>
+      </ul>
+      <form>
+        <input type="search" placeholder="Search">
+        <button type="button">Go</button>
+      </form>
+    </nav>
+    <br>
+ <div id="feature">
+ <img src="paws.jpg" style="width: 343px; height: 150px;"alt="">
+ </div>
+    <br>
+    <center><a href="gumi.html"><img src="gumi.png" style="width: 300px; height: 200px;"alt=""></a><p>Videos da Audios Nakara tuttukan da malan yayi alokacin rayuwarsa</p></center><br>
+    <center><a href="jafar.html"><img src="jafar.png" style="width: 300px; height: 200px;"alt=""></a><p>Videos da Audios Nakara tuttukan da malan yayi alokacin rayuwarsa</p></center><br>
+    <center><a href="banba.html"><img src="banba.png" style="width: 300px; height: 200px;"alt=""></a><p>Videos da Audios Nakara tuttukan da malan yayi alokacin rayuwarsa</p></center>
+    <center><a href="albani.html"><img src="albani.png" width="300" height="200" alt=""></a><p>Videos da Audios Nakara tuttukan da malan yayi alokacin rayuwarsa</p></center>
+<center><a href="dr sani.html"><img src="dr sani.png" width="300" height="200" alt=""></a><p>Videos da Audios Nakara tuttukan da malan yake gabatarwa</p></center>
+    <center><a href="guruntum.html"><img src="guruntum.png" width="300" height="200" alt=""></a><p>Videos da Audios Nakara tuttukan da malan yake gabatarwa</p</center>
+    <center><a href="fantami.html"><img src="fantami.png" width="300" height="200" alt=""></a><p>Videos da Audios Nakara tuttukan da malan yake gabatarwa</p</center>
+    <center><a href="gadon qaya.html"><img src="gadon qaya.png" width="300" height:="200"alt=""></a><p>Videos da Audios Nakara tuttukan da malan yake gabatarwa</p</center>
+    <script src="script.s"></script>
+  </body>
+</html>

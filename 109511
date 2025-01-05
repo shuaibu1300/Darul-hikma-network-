@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+  <head>
+    <title>Daarul hikma Network</title>
+    <style>
+      .main-nav {
+        display: flex;
+        padding: 15px;
+        border-radius: 5px;
+        background: #1c87c9;
+        color: #fff;
+        font-weight: 500;
+      }
+      .main-nav > ul {
+        display: flex;
+        flex: 2;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      .main-nav li {
+        margin-right: 20px;
+      }
+      .main-nav > form {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+      }
+      .main-nav input {
+        flex: 1;
+        padding: 5px;
+      }
+      .main-nav button {
+        padding: 0 20px;
+        margin-left: 10px;
+        border: 0;
+        border-radius: 20px;
+        background: #fff;
+        color: #666;
+      }
+      @media screen and (max-width: 575px) {
+        .main-nav {
+          flex-direction: column;
+        }
+        .main-nav ul {
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Contact us</li>
+      </ul>
+      <form>
+        <input type="search" placeholder="Search">
+        <button type="button">Go</button>
+      </form>
+    </nav>
+    <h1>Shek Jafar</h1>
+     <video src="video/puppy.mp4" 
+ poster="images/puppy.jpg" 
+ width="340" height="300" 
+ preload
+ controls
+ loop>
+ <p>A video of a puppy playing in the snow</p>
+ </video>
+    </body>
+    </html>
